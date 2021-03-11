@@ -7,3 +7,5 @@ function handleClick(){
   xhr.setRequestHeader('Content-Type', 'application/json');
   xhr.send();
 }
+
+// nothing is printed in the console here, to see the preflighyt request chekc the network tab in dev tools.
